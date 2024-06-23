@@ -27,7 +27,7 @@ public class ConsumirAPI {
         return json;
     }
 
-    public <T> T ontenerRecord(String url, Class<T> recordd){
+    public <T> T obtenerRecord(String url, Class<T> recordd){
         ConvertDatos conversor = new ConvertDatos();
         ConsumirAPI consumoAPI = new ConsumirAPI();
         String json = consumoAPI.obtenerDatos(url);
